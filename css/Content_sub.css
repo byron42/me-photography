@@ -167,11 +167,15 @@ img {
 }
 
 /*----------------------------------------------------------- Jumbotron (( faq, investment, faq )) */
+div.jumbotron-fluid {
+	padding-top: 40px;
+}
+
 .jumbotron-heading-box {
 	padding-left: 40px;
 	padding-right: 40px;
 	padding-bottom: 20px;
-	padding-top: 10px;
+	padding-top: 30px;
 	background-color: rgba(220, 220, 220, 0.65);
 	font-size: 1em;
 }
@@ -193,11 +197,12 @@ img {
 }
 
 .jumbotron-sub {
-	padding-left: 0px;
-	padding-right: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
 	color: #444444;
 	font-size: 1em;
 	font-style: italic;
+	text-align: center;
 }
 
 .jumbotron-ul {
@@ -206,11 +211,24 @@ img {
 	color: #444444;
 	font-size: 1em;
 }
+
+/* bullet offset */
+ul.text-justify.jumbotron-ul{
+	padding-left: 27px;
+}
+
+.display-5 {
+	color: #444444;
+}
+
 @media only screen and (max-width: 992px) {
 	.display-5 {
 		text-align: center;
 	}
-
+	.center-jt-p {
+		text-align: center !important;
+		padding: 0;
+	}
 }
 /*-------------------------------------------------------------------------------------------------*/
 
