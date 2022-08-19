@@ -141,8 +141,7 @@ hr {
 	border-color: rgb(173, 172, 172);
 }
 
-
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 425px) {
 	.modal-content {
 		position: fixed;
 		top: 0;
