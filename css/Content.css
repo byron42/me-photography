@@ -39,6 +39,10 @@ img {
 	color: DodgerBlue;
 }
 
+.navbar-toggler {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
 .navbar-custom {
 	font-family: roboto, sans-serif;
 	font-weight: Bold;
@@ -83,10 +87,11 @@ img {
 	height: 140px;
 	/* opacity: 80%; */
 	border-radius: 0;
+	padding-top:23px;
+	z-index:0;
 }
 
 .breadcrumb {
-	/* padding-top: 23px !important; */
 	background-color: rgba(250, 250, 250, 0.8) !important;
 }
 

@@ -119,9 +119,10 @@ p {
 	display: block;
 	height: 140px;
 	background-size: cover;
-	padding-top: 30px;
+	padding-top: 32px;
 	z-index: 3;
 	border-radius: 0;
+	
 }
 
 .breadcrumb-font {
