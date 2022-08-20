@@ -1,4 +1,5 @@
 @import url("Style.css");
+/* @import url("Content.css"); */
 
 .bg {
 	background:
@@ -20,6 +21,7 @@ body {
 	/* padding-bottom: 20px; */
 
 	/* could be any color just has to be alpha 0 */
+	/* background: none; */
 	background-color: rgba(125, 124, 124, 0);
 }
 
