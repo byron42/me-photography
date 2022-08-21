@@ -64,6 +64,11 @@ p {
 	font-size: 2.5em;
 }
 
+.main-logo {
+	margin-left: -12px;
+	width:150px;
+}
+
 
 /*-------------------------------------------------------------------- welcome message modal */
 .modal.fade .modal-dialog {

@@ -125,6 +125,10 @@ p {
 	font-size: 2.5em;
 }
 
+.investment-pad {
+	margin-top: 20px;
+}
+
 .circle-icon {
 	width: 145px;
 	position: relative;
