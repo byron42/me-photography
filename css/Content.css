@@ -34,7 +34,7 @@ p {
 
 
 /* ============================================================================================ */
-/* these need to eventually go away to fix nav size and logo spacing (( not a perm answer )) */
+/*   these need to eventually go away to fix nav size and logo spacing (( not a perm answer ))  */
 /* ============================================================================================ */
 /* img.circle-icon {
 	margin-top: 11px;
@@ -101,9 +101,11 @@ p {
 
 /*-------------------------------------------------------------- breadcrumbs and logo */
 .logo-pos {
-	position: relative; top:-5px;
-	width: 200px;
-	margin-top: 11px;
+	position: relative; top: 0px;
+	left: -5px;
+	width: 275px;
+	margin-top: 3px;
+	padding-bottom: 6px;
 }
 
 .breadcrumb {
@@ -133,7 +135,7 @@ p {
 	width: 145px;
 	position: relative;
 	float: right;
-	top: -120px;
+	top: -127px;
 	right: -20px;
 	z-index: 1;
 	padding: 20px;
@@ -182,5 +184,13 @@ a .nav-link,
 		-o-background-size: cover;
 		background-size: cover !important;
 		transition-duration: .3s;
+	}
+	.logo-pos {
+		position: relative; top:-5px;
+		width: 200px;
+		margin-top: 11px;
+	}
+	.circle-icon {
+		top: -125px;
 	}
 }
