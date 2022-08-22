@@ -13,7 +13,7 @@
 	-o-background-size: cover;
 	background-size: cover;
 	/* background-attachment: fixed; */
-	z-index: -1000;
+	z-index: 1000;
 	/* overflow: none; */
 }
 
