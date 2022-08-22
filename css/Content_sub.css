@@ -240,6 +240,11 @@ ul.text-justify.jumbotron-ul{
 		background-size: cover;
 		z-index: -1000;
 	}
+	body {
+		overflow-y: visible;
+		background-color: rgba(178, 178, 178, 0.89);
+		height: 100%;
+	}
 }
 /*------------------------------------------------------------------------------------*/
 
