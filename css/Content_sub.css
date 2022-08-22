@@ -230,9 +230,9 @@ ul.text-justify.jumbotron-ul{
 	.bg {
 		background:
 			linear-gradient(rgba(178, 178, 178, 0.89),
-				rgba(178, 178, 178, 0.89)) no-repeat center fixed,
+				rgba(178, 178, 178, 0.89)) no-repeat center fixed;
 	
-			url(../images/background-home.jpg) no-repeat center fixed;
+			/* url(../images/background-home.jpg) no-repeat center fixed; */
 	
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
