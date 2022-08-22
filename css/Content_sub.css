@@ -226,6 +226,7 @@ ul.text-justify.jumbotron-ul{
 		padding: 0;
 	}
 }
+/* get rid of this for bg != gray */
 @media only screen and (max-width: 400px) {
 	.bg {
 		background: none;
