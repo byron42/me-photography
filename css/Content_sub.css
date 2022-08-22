@@ -228,22 +228,20 @@ ul.text-justify.jumbotron-ul{
 }
 @media only screen and (max-width: 400px) {
 	.bg {
+		background: none;
+	}
+	body {
 		background:
 			linear-gradient(rgba(178, 178, 178, 0.89),
-				rgba(178, 178, 178, 0.89)) no-repeat center fixed;
+				rgba(178, 178, 178, 0.89)) no-repeat center fixed,
 	
-			/* url(../images/background-home.jpg) no-repeat center fixed; */
+			url(../images/background-home.jpg) no-repeat center fixed;
 	
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
 		z-index: -1000;
-	}
-	body {
-		overflow-y: visible;
-		background-color: rgba(178, 178, 178, 0.89);
-		height: 100%;
 	}
 }
 /*------------------------------------------------------------------------------------*/
