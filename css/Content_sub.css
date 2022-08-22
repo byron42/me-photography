@@ -226,21 +226,21 @@ ul.text-justify.jumbotron-ul{
 		padding: 0;
 	}
 }
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
 	.bg {
 		background:
 			linear-gradient(rgba(178, 178, 178, 0.89),
 				rgba(178, 178, 178, 0.89)) no-repeat center fixed;
+	
+			/* url(../images/background-home.jpg) no-repeat center fixed; */
+	
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
 		z-index: -1000;
 	}
-	html {
-		background-color: rgba(178, 178, 178, 0.89);
-	}
-}
+} */
 /*------------------------------------------------------------------------------------*/
 
 .rnd-corner {
