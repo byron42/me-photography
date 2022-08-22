@@ -12,14 +12,12 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	/* background-attachment: fixed; */
-	z-index: 1000;
-	/* overflow: none; */
+	z-index: -1000;
 }
 
 body {
 	overflow-y: visible;
-	height: 100vh;
+	height: 100%;
 	/* padding-bottom: 20px; */
 
 	/* could be any color just has to be alpha 0 */
