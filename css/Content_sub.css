@@ -226,7 +226,7 @@ ul.text-justify.jumbotron-ul{
 		padding: 0;
 	}
 }
-/* @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
 	.bg {
 		background:
 			linear-gradient(rgba(178, 178, 178, 0.89),
@@ -240,7 +240,7 @@ ul.text-justify.jumbotron-ul{
 		background-size: cover;
 		z-index: -1000;
 	}
-} */
+}
 /*------------------------------------------------------------------------------------*/
 
 .rnd-corner {
